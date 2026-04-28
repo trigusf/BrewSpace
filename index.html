@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="src/output.css">
+    <title>BrewSpace</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="absolute top-0 left-0 w-full z-50">
+        <div class="flex justify-between items-center text-center text-coffe-100 mx-5 my-3 lg:mx-10 lg:my-5">
+            <span class="font-bold text-xl">Brew<span class="text-coffe-500">Space</span></span>
+
+            <div class="list-navbar hidden lg:block md:block">
+                <ul class="flex flex-row lg:gap-10 md:gap-5">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#galery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <span class="cursor-pointer font-medium text-[10px] py-1.5 px-4 rounded-[7px] border bg-coffe-100/10 hover:bg-coffe-100 hover:text-coffe-400 transition duration-500 ea">Order Now</span>
+        </div>
+    </div>
+    <!-- end of header -->
+
+    <!-- section home -->
+     <section id="home" class="h-screen relative bg-coffe-400 text-coffe-100 overflow-hidden">
+        <div class="w-full flex flex-wrap items-center py-20 lg:py-30">
+            <div data-aos="fade-right" data-aos-duration="2000" class="px-10 mx-auto max-w-xl lg:w-1/2 z-10">
+                <h1 class="font-bold text-4xl max-w-[320px] leading-[1.3] lg:text-5xl lg:max-w-[500px]">Racikan Kopi Khas Brew<span class="text-coffe-500">Space</span> untuk Setiap Suasana</h1>
+                <p class="text-sm pt-4 max-w-[320px] lg:max-w-[500px]">Setiap cangkir punya     cerita, dari aroma pertama sampai tegukan terakhir.</p>
+                <div class="pt-10 gap-3 flex text-center items-center">
+
+                    <a href="#menu" class="border p-2 px-4 rounded-[7px] text-sm font-medium    bg-coffe-100 text-coffe-400 hover:opacity-80 transition duration-300   ease-in-out">Explore Menu</a>
+
+                    <a href="#" class="border p-2 px-4 rounded-[7px] text-sm font-medium    hover:opacity-80 transition duration-300 ease-in-out">Book a Table</a>
+
+                </div>
+            </div>
+
+                <img src="assets/img/Cup-of-fresh-made-coffee-served-in-cup-on-transparent-background-PNG.png" class="absolute -bottom-[50px] right-[100px] w-lg opacity-20 md:hidden lg:hidden" alt="">
+
+
+            <div data-aos="zoom-in" data-aos-duration="1000" class="w-full self-end hidden  lg:inline md:inline md:w-1/2 lg:w-1/2">
+                    <img src="assets/img/nathan-dumlao-vbt-Fp3b5FA-unsplash(1).jpg"     class="max-w-full mx-auto w-[400px] h-[500px] rounded-2xl object-cover mask-b-from-60% mask-b-to-100%" alt="">        
+            </div>
+        </div>
+     </section>
+    <!-- end of section home -->
+
+    <!--section about  -->
+    <section  id="about" class="bg-coffe-100 flex justify-between items-center">
+        <div class="px-5 max-w-5xl py-15 grid gap-4 items-center md:grid-cols-2 lg:grid-cols-3 lg:mx-10 lg:max-w-fit">
+            <div data-aos="fade-up" data-aos-duration="300" class="bg-slate-50 p-5 py-10 rounded-xl shadow-md lg:h-56 ">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-5 w-5" viewBox="0 0 640 640"><path d="M96 128C96 110.3 110.3 96 128 96L480 96C550.7 96 608 153.3 608 224C608 294.7 550.7 352 480 352C480 405 437 448 384 448L192 448C139 448 96 405 96 352L96 128zM544 224C544 188.7 515.3 160 480 160L480 288C515.3 288 544 259.3 544 224zM96 512L480 512C497.7 512 512 526.3 512 544C512 561.7 497.7 576 480 576L96 576C78.3 576 64 561.7 64 544C64 526.3 78.3 512 96 512z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Biji Kopi Pilihan Terbaik</h1>
+                <p class="text-sm mt-2 text-coffe-400">Kami memilih biji kopi berkualitas tinggi dan mengolahnya dengan teliti untuk menghasilkan rasa yang kaya di setiap seduhan.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="600" class="bg-slate-50 p-5 py-10 rounded-xl shadow-md lg:h-56">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-5 w-5" viewBox="0 0 640 640"><path d="M144 336C144 288.7 109.8 249.4 64.8 241.5C72 177.6 126.2 128 192 128L448 128C513.8 128 568 177.6 575.2 241.5C530.2 249.5 496 288.7 496 336L496 368L144 368L144 336zM0 448L0 336C0 309.5 21.5 288 48 288C74.5 288 96 309.5 96 336L96 416L544 416L544 336C544 309.5 565.5 288 592 288C618.5 288 640 309.5 640 336L640 448C640 483.3 611.3 512 576 512L64 512C28.7 512 0 483.3 0 448z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Suasana yang Nyaman</h1>
+                <p class="text-sm mt-2 text-coffe-400">Tempat yang pas untuk bersantai, bekerja, atau sekadar menikmati waktu bersama dengan secangkir kopi favorit.</p>
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="900" class="bg-slate-50 p-5 py-10 rounded-xl shadow-md lg:h-56">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-5 w-5" viewBox="0 0 640 640"><path d="M311.6 95C297.5 75.5 274.9 64 250.9 64C209.5 64 176 97.5 176 138.9L176 141.3C176 205.7 258 274.7 298.2 304.6C311.2 314.3 328.7 314.3 341.7 304.6C381.9 274.6 463.9 205.7 463.9 141.3L463.9 138.9C463.9 97.5 430.4 64 389 64C365 64 342.4 75.5 328.3 95L320 106.7L311.6 95zM141.3 405.5L98.7 448L64 448C46.3 448 32 462.3 32 480L32 544C32 561.7 46.3 576 64 576L384.5 576C413.5 576 441.8 566.7 465.2 549.5L591.8 456.2C609.6 443.1 613.4 418.1 600.3 400.3C587.2 382.5 562.2 378.7 544.4 391.8L424.6 480L312 480C298.7 480 288 469.3 288 456C288 442.7 298.7 432 312 432L384 432C401.7 432 416 417.7 416 400C416 382.3 401.7 368 384 368L231.8 368C197.9 368 165.3 381.5 141.3 405.5z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Pelayanan Sepenuh Hati</h1>
+                <p class="text-sm mt-2 text-coffe-400">Kami berkomitmen memberikan pengalaman terbaik, dari awal Anda datang hingga tegukan terakhir.</p>
+            </div>
+        </div>     
+    </section>
+
+    <section id="about" class="bg-slate-50 pt-15">
+
+        <div class="flex flex-col items-center justify-center text-center px-3">
+            <h1 class="text-2xl font-bold text-coffe-500 mb-4">Pilihan Kopi Racikan BrewSpace</h1>
+            <p class="text-sm text-coffe-400">Temukan berbagai varian kopi yang diracik untuk memanjakan selera Anda.</p>
+        </div>
+        
+        <div class="px-5 max-w-5xl py-15 grid gap-4 items-center md:grid-cols-2 lg:grid-cols-3 lg:mx-10 lg:max-w-fit">
+
+            <div data-aos="zoom-in" data-aos-duration="1000" class="bg-coffe-100 p-5 py-10 rounded-xl shadow-md lg:h-56 flex flex-col text-center items-center">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current w-5 h-5" viewBox="0 0 640 640"><path d="M184 48C170.7 48 160 58.7 160 72C160 110.9 183.4 131.4 199.1 145.1L200.2 146.1C216.5 160.4 224 167.9 224 184C224 197.3 234.7 208 248 208C261.3 208 272 197.3 272 184C272 145.1 248.6 124.6 232.9 110.9L231.8 109.9C215.5 95.7 208 88.1 208 72C208 58.7 197.3 48 184 48zM128 256C110.3 256 96 270.3 96 288L96 480C96 533 139 576 192 576L384 576C425.8 576 461.4 549.3 474.5 512L480 512C550.7 512 608 454.7 608 384C608 313.3 550.7 256 480 256L128 256zM480 448L480 320C515.3 320 544 348.7 544 384C544 419.3 515.3 448 480 448zM320 72C320 58.7 309.3 48 296 48C282.7 48 272 58.7 272 72C272 110.9 295.4 131.4 311.1 145.1L312.2 146.1C328.5 160.4 336 167.9 336 184C336 197.3 346.7 208 360 208C373.3 208 384 197.3 384 184C384 145.1 360.6 124.6 344.9 110.9L343.8 109.9C327.5 95.7 320 88.1 320 72z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Kopi Klasik</h1>
+                <p class="text-sm mt-2 text-coffe-400">KPilihan kopi dengan karakter kuat dan rasa autentik, cocok untuk pecinta kopi sejati.</p>
+            </div>
+
+            <div data-aos="zoom-in" data-aos-duration="500" class="bg-coffe-100 p-5 py-10 rounded-xl shadow-md lg:h-56 flex flex-col text-center items-center">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-5 w-5" viewBox="0 0 640 640"><path d="M320 576C214 576 128 490 128 384C128 292.8 258.2 109.9 294.6 60.5C300.5 52.5 309.8 48 319.8 48L320.2 48C330.2 48 339.5 52.5 345.4 60.5C381.8 109.9 512 292.8 512 384C512 490 426 576 320 576zM240 376C240 362.7 229.3 352 216 352C202.7 352 192 362.7 192 376C192 451.1 252.9 512 328 512C341.3 512 352 501.3 352 488C352 474.7 341.3 464 328 464C279.4 464 240 424.6 240 376z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Favorit Creamy</h1>
+                <p class="text-sm mt-2 text-coffe-400">Perpaduan kopi dengan tekstur lembut dan rasa seimbang yang nyaman di lidah.</p>
+            </div>
+
+            <div data-aos="zoom-in" data-aos-duration="1500" class="bg-coffe-100 p-5 py-10 rounded-xl shadow-md lg:h-56 flex flex-col text-center items-center">
+                <span class="bg-coffe-300 text-coffe-500 rounded-full items-center flex justify-center h-10 w-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="fill-current h-5 w-5" viewBox="0 0 640 640"><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z"/></svg>
+                </span>
+                <h1 class="text-coffe-500 font-bold text-md mt-5">Racikan Spesial</h1>
+                <p class="text-sm mt-2 text-coffe-400">Kreasi unik khas BrewSpace dengan cita rasa berbeda di setiap tegukan.</p>
+            </div>
+        </div>
+    </section>
+    <!--section about  -->
+    
+    <!-- section Menu -->
+    <section id="" class="bg-coffe-100 lg:h-screen">
+        <div class="w-full flex flex-wrap items-center py-20 overflow-x-hidden">
+            <div data-aos="fade-right" data-aos-duration="2000" class="px-10 mx-auto max-w-xl lg:w-1/2 z-10">
+                <p class="font-semibold text-sm text-coffe-400">DIRACIK DENGAN SEPENUH HATI</p>
+                <h1 class="font-bold text-4xl max-w-[320px] leading-[1.3] lg:text-5xl lg:max-w-[500px]">Kenapa Memulai Hari Bersama Kopi Kami?</h1>
+                <p class="text-sm pt-4 max-w-[320px] lg:max-w-[500px]">Setiap cangkir dibuat dari biji kopi pilihan, teknik terbaik, dan sentuhan yang penuh perhatian. Baik untuk memulai hari, menemani kerja, atau sekadar menikmati waktu santai.</p>
+                <div class="pt-10 gap-3 flex text-center items-center">
+                    
+                    <a href="#about" class="border p-2 px-4 rounded-[7px] text-sm font-medium    bg-coffe-400 text-coffe-100 hover:opacity-80 transition duration-300   ease-in-out">Read More</a>
+
+                    <a href="#menu" class="border p-2 px-4 rounded-[7px] text-sm font-medium    hover:opacity-80 transition duration-300 ease-in-out">Explore Menu</a>
+                    
+                </div>
+            </div>
+            
+            <div data-aos="fade-left" data-aos-duration-="3000" class="w-full self-end hidden  lg:inline md:inline md:w-1/2 lg:w-1/2">
+                <img src="assets/img/food-bean-breakfast-handle-natural(1).jpg"     class="max-w-full mx-auto h-xl w-xl rounded-2xl object-cover" alt="">        
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="bg-slate-50 pt-15">
+
+        <div class="flex flex-col items-center justify-center text-center px-3">
+            <p class="text-sm text-coffe-400">Pilihan Favorit Pelanggan</p>
+            <h1 class="text-4xl font-bold text-coffe-500">Menu Andalan BrewSpace</h1>
+        </div>
+
+        <div class="p-5 m-5 grid lg:grid-cols-2 md:grid-cols-2">
+            <div class="bg-coffe-100 p-5 m-5 rounded-md lg:flex lg:gap-5">
+                <img src="assets/img/caramel latte.jpg" class="rounded-md w-full max-w-[500px] lg:max-w-[180px] aspect-square object-cover shrink-0" alt="" srcset="">
+                <div class="py-5">
+                    <div class="flex justify-between items-center mb-2">
+                        <h1 class="font-bold text-coffe-400 text-xl">Caramel Latte</h1>
+                        <h1 class="font-bold text-coffe-400 text-xl">28K</h1>
+                    </div>
+
+                    <span class="px-5 bg-coffe-300 rounded-2xl font-medium text-coffe-100 shadow-xl">Favorit</span>
+                    <p class="text-sm text-coffe-300 mt-2">Perpaduan espresso lembut dengan susu hangat dan sentuhan karamel manis yang menenangkan.</p>
+                </div>
+            </div>
+
+            <div class="bg-coffe-100 p-5 m-5 rounded-md lg:flex lg:gap-5">
+                <img src="assets/img/cappuccino.jpg" class="rounded-md w-full max-w-[500px] lg:max-w-[180px] aspect-square object-cover shrink-0" alt="" srcset="">
+                <div class="py-5">
+                    <div class="flex justify-between items-center mb-2">
+                        <h1 class="font-bold text-coffe-400 text-xl">Classic Cappuccino</h1>
+                        <h1 class="font-bold text-coffe-400 text-xl">25K</h1>
+                    </div>
+
+                    <span class="px-5 bg-coffe-300 rounded-2xl font-medium text-coffe-100 shadow-xl">Best Seller</span>
+                    <p class="text-sm text-coffe-300 mt-2">Espresso kuat dengan busa susu lembut yang menciptakan rasa klasik dan seimbang.</p>
+                </div>
+            </div>
+
+            <div class="bg-coffe-100 p-5 m-5 rounded-md lg:flex lg:gap-5">
+                <img src="assets/img/mocha bliss.jpg" class="rounded-md w-full max-w-[500px] lg:max-w-[180px] aspect-square object-cover shrink-0" alt="" srcset="">
+                <div class="py-5">
+                    <div class="flex justify-between items-center mb-2">
+                        <h1 class="font-bold text-coffe-400 text-xl">Mocha Bliss</h1>
+                        <h1 class="font-bold text-coffe-400 text-xl">20K</h1>
+                    </div>
+
+                    <span class="px-5 bg-coffe-300 rounded-2xl font-medium text-coffe-100 shadow-xl">PILIHAN CHEF</span>
+                    <p class="text-sm text-coffe-300 mt-2">Kombinasi kopi, cokelat, dan creamy milk yang cocok untuk pecinta rasa manis dan bold.</p>
+                </div>
+            </div>
+
+            <div class="bg-coffe-100 p-5 m-5 rounded-md lg:flex lg:gap-5">
+                <img src="assets/img/vanilla cold brew.jpg" class="rounded-md w-full max-w-[500px] lg:max-w-[180px] aspect-square object-cover shrink-0" alt="" srcset="">
+                <div class="py-5">
+                    <div class="flex justify-between items-center mb-2">
+                        <h1 class="font-bold text-coffe-400 text-xl">Vanilla Cold Brew</h1>
+                        <h1 class="font-bold text-coffe-400 text-xl">26K</h1>
+                    </div>
+
+                    <span class="px-5 bg-coffe-300 rounded-2xl font-medium text-coffe-100 shadow-xl">Menyegarkan</span>
+                    <p class="text-sm text-coffe-300 mt-2">Kopi dingin dengan rasa ringan, aroma vanilla lembut, dan sensasi segar di setiap tegukan.</p>
+                </div>
+            </div>
+
+            
+        </div>
+
+    </section>
+    <!-- section Menu -->
+    
+    <!-- Section galery -->
+      
+    <section id="galery" class="bg-coffe-100 h-full">
+        <div class="p-10">
+            <div class="flex flex-col gap-4 scroll-smooth w-full lg:flex-row" >
+                <div data-aos="zoom-in" data-aos-duration="1000">
+                    <img src="assets/img/coffe1.jpg" class="h-64 w-80 object-cover rounded-sm" alt="" srcset="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
+                    <img src="assets/img/coffe2.jpg" class="h-64 w-80 object-cover rounded-sm" alt="" srcset="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1400">
+                    <img src="assets/img/coffe3.jpg" class="h-64 w-80 object-cover rounded-sm" alt="" srcset="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1600">
+                    <img src="assets/img/coffe4.jpg" class="h-64 w-80 object-cover rounded-sm" alt="" srcset="">
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="1800">
+                    <img src="assets/img/coffe5.jpg" class="h-64 w-80 object-cover rounded-sm" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of Section galery -->
+    
+    <!-- section contact -->
+
+    <section id="contact" class="bg-coffe-400 pb-7">
+        <div class="flex flex-col p-10 lg:flex-row justify-between gap-4">
+             <div class="text-coffe-200">
+
+                <h1 class="font-bold text-2xl">Space<span class="text-coffe-500">Brew</span></h1>
+
+                <p class="pt-5 lg:max-w-[300px]">Kopi berkualitas, camilan hangat, dan tempat nyaman untuk bersantai serta menikmati setiap momen.</p>
+
+            </div>
+
+            <div>
+
+                <h1 class="font-semibold text-coffe-500">Jam Buka</h1>
+                <div class="pt-3 text-coffe-200 flex flex-col gap-2">
+                    <p>Senin - Jumat: 08:00 - 21:00</p>
+                    <p>sabtu - Minggu: 08:00 - 23:00</p>
+                </div>
+                
+
+            </div>
+
+            <div>
+
+                <h1 class="font-semibold text-coffe-500">hubungi kami</h1>
+                <div class="pt-3 text-coffe-200 flex flex-col gap-2">
+                    <p>adadeh@gmail.com</p>
+                    <p>+62 8953-2609-5122</p>
+                    <p>Jl.keselamatan no.4 Blok C</p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="border-t border-coffe-500 my-2 mx-10">
+
+        <div class="mx-10 flex justify-between">
+            <p class="text-coffe-500">Designed by
+                <a href="https://dribbble.com/shots/27166264-coffee-website-ui-coffee-shop-website-cafe-landing-page-design" class="text-coffe-200" target="_blank">@Shireen Zainab</a>
+                from <a href="dribbble.com" class="text-coffe-500" target="_blank">dribbble.com</a> 2026
+            </p>
+
+            <div class="flex flex-col lg:flex-row gap-3 justify-center items-center text-coffe-200">
+                <p>Follow us</p>
+                <div class="flex gap-2">
+                    <a href="https://www.instagram.com/trigusf" target="_blank">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                    </a>
+                    <a href="#">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Facebook</title><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></svg>
+                    </a>
+                    <a href="#">
+                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of section contact -->
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
