@@ -17,18 +17,18 @@ A modern and responsive Coffee Shop landing page built using HTML and Tailwind C
 - JavaScript
 - AOS (Animate On Scroll)
 
-## 📸 Preview
-
-![Preview](assets/img/Screenshot 2026-04-28 212837.png)
-
-
-![Preview](assets/img/Screenshot 2026-04-28 212925.png)
-
-
-
-## 🌐 Live Demo
+- ## 🌐 Live Demo
 
 [(BrewSpace Coffe Shop)](https://brew-space.vercel.app/)
+
+## 📸 Preview
+
+<img width="1834" height="926" alt="image" src="https://github.com/user-attachments/assets/3ee25b28-ad43-4ae8-bef8-553686afcd9d" />
+
+
+<img width="1837" height="902" alt="image" src="https://github.com/user-attachments/assets/10094527-f13e-495a-98f6-b20f673eaa28" />
+
+
 
 ## 🎨 Design Reference
 
